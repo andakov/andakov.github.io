@@ -1,0 +1,553 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: #000;
+    height: 70px;
+
+}
+*{
+    box-sizing: border-box;
+}
+h2
+{
+    font-family: 'Raleway', sans-serif;
+}
+*p{
+    font-family: 'Open Sans', sans-serif;
+}
+.logo{
+    margin-top: 21px;
+    float: left;
+}
+nav{
+    float: right;
+    margin-top: 29px;
+}
+.menu{
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+.menu li{
+    float: left;
+    display: block;
+    margin-right: 51px;
+}
+.menu a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+.container{
+    margin: 0 auto;
+    width: 1106px;
+
+}
+#container2
+{
+    background: url(../img/fon.jpg) no-repeat center top / cover;
+    height: 642px;
+}
+.logo2
+{
+margin-top: 110px;
+    height: 60px;
+    width: 175px;
+}
+.title2 p{
+    margin-top: 60px;
+    color: white;
+}
+.title2 button{
+    margin-top: 45px;
+    background-color: transparent;
+}
+.title2 button:hover{
+background-color: #ff8b38;
+}
+.title2 button a
+{
+    color: white;
+}
+.title2 button a:hover
+{
+text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.siz{
+    margin-top: 34px;
+    width: 64px;
+    border: 1px solid white;
+}
+.title2 h2{
+
+    margin-top: 34px;
+    color: white;
+}
+
+.title2
+{
+    float: left;
+}
+/*Signup*/
+.signup {
+    margin-top: 140px;
+    background: white;
+    width: 362px;
+    height: 362px;
+    float: right;
+    border-radius: 5px;
+}
+.sigcon1
+{
+    border-radius:10px 10px 0 0;
+    text-align: center;
+    padding-top: 10px;
+    height: 55px;
+    background:#f5f5f5;
+}
+.sigbut
+{
+    border-radius: 0 0 5px 5px;
+    margin-top: 60px;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    background:#ff8b38;
+    height: 55px;
+}
+.sigbut:hover
+{
+    background: #000;
+}
+
+.sigbut a
+{
+    color: white;
+font-weight: bold;
+}
+input
+{
+    margin-top: 31px;
+    margin-left: 41px;
+    width: 80%;
+    height: 33px;
+    padding-left: 10px;
+}
+.socmedia
+{
+    background:white;
+height: 105px;
+    border-bottom: 2px solid #cccccc;
+}
+.socmedia1{
+    float: left;
+    width: 450px;
+}
+.socmedia1 h4
+{
+    margin-top: 10px;
+}
+
+.socmedia1 p
+{
+    margin-top: 5px;
+    color: #5f5c5c;
+}
+.icons
+{
+    margin-top: 10px;
+    font-size: 50px;
+}
+.icons__item
+{
+    list-style-type: none;
+    margin: 0 10px;
+}
+.icons__item a
+{
+    color: #cccccc;
+}
+.icons__item a:hover
+{
+    color: black;
+}
+.socmedia2{
+    float: right;
+}
+
+/*2 SECTION*/
+
+.conbut{
+    display: block;
+    background: #f5f5f5;
+    height: 595px;
+}
+.conbut2 {
+    width: 1106px;
+    height: 595px;
+   position: absolute;
+}
+.but3{
+    margin-top: 145px;
+    float: left;
+    width: 115px;
+    height: 333px;
+}
+.but3 button{
+border-radius: 5px;
+    background: #333;
+    width: 111px;
+    height: 111px;
+}
+.but3 button a
+{
+    color: white;
+}
+.but3 button:hover{
+    color: white;
+    background-color: #ff8b38;
+}
+.tabtext
+{
+    margin-top: 145px;
+    margin-left: 210px;
+    height: 305px;
+}
+.tabtext p
+{
+    color: #5f5c5c;
+}
+.tabtext button
+{
+    width: 125px;
+    height: 50px;
+    margin-top: 20px;
+    background: #ff8b38;
+    border-radius: 5px;
+
+}
+.tabtext button a
+{
+    color: white;
+    font-size: 16px;
+}
+.pic
+{
+    width: 320px;
+    height: 255px;
+    float: right;
+    margin-top: -300px;
+}
+/*3 SECTION*/
+.con3
+{
+    height: 595px;
+    border-top: 2px solid #cccccc;
+}
+.pic2
+{
+    margin-top: 127px;
+}
+
+.sizorang{
+    width: 64px;
+    border: 1px solid #ff8b38;
+}
+.con3text
+{
+    margin-top: 110px;
+    float: right;
+}
+.con3text p
+{
+    color: #5f5c5c;
+}
+.downl
+{
+    float: left;
+    transform: rotate(180deg);
+
+}
+.downl2
+{
+    float: left;
+}
+.tit2
+{
+    margin-left: 60px;
+}
+/*3 SECTION-----------------------------------------------------------------*/
+.sec3
+{
+    background: #f5f5f5;
+    height: 883px;
+}
+.sec3 .col
+{
+    background: #000;
+    width: 100px;
+    height: 100px;
+}
+.title3
+{
+    height: 280px;
+}
+.proc1
+{
+    margin-top: 50px;
+    float: left;
+    width: 325px;
+    height: 465px;
+    border-bottom: 1px solid red;
+}
+.proc1 button
+{
+    height: 42px;
+    color: #5f5c5c;
+    background: white;
+    width: 100%;
+    border: transparent;
+    border-bottom: 1px solid #f5f5f5;
+}
+.proc1 button:hover
+{
+    background: #ff8b38;
+}
+.proc11
+{
+    height: 60px;
+    color: white;
+    background: #333;
+    border-bottom: 2px solid #cccccc;
+}
+.proc12
+{
+    height: 157px;
+    color: white;
+    background: #333;
+    border-bottom: 4px solid #ff8b38;
+}
+.proc2
+{
+    width: 325px;
+    height: 465px;
+}
+.proc2 button
+{
+    height: 42px;
+    color: #5f5c5c;
+    background: white;
+    width: 100%;
+    border: transparent;
+    border-bottom: 1px solid #f5f5f5;
+}
+.proc2 button:hover
+{
+    background: #ff8b38;
+}
+.proc21
+{
+    height: 60px;
+    color: white;
+    background: #333;
+    border-bottom: 2px solid #cccccc;
+}
+.proc22
+{
+
+    height: 157px;
+    color: white;
+    background: #333;
+    border-bottom: 4px solid #ff8b38;
+}
+.but11
+{
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background: #ff8b38;
+    width: 100%;
+    height: 50px;
+}
+
+.proc3
+{
+    margin-top: -415px;
+    float: right;
+    width: 325px;
+    height: 465px;
+}
+.proc3 button
+{
+    height: 42px;
+    color: #5f5c5c;
+    background: white;
+    width: 100%;
+    border: transparent;
+    border-bottom: 1px solid #f5f5f5;
+}
+.proc3 button:hover
+{
+    background: #ff8b38;
+}
+.proc31
+{
+    height: 60px;
+    color: white;
+    background: #333;
+    border-bottom: 2px solid #cccccc;
+}
+.proc32
+{
+    height: 157px;
+    color: white;
+    background: #333;
+    border-bottom: 4px solid #ff8b38;
+}
+
+/*4 SECTION-----------------------------------------------------------------*/
+.picdown
+{
+    background: url(../img/picdown.jpg) no-repeat center top / cover;
+    height: 320px;
+}
+.picdown h2
+{
+    padding-top: 75px;
+    color: white;
+    text-align: center;
+}
+.picdown p
+{
+    color: white;
+    text-align: center;
+}
+.sizi
+{
+    margin: auto;
+    width: 64px;
+    border: 1px solid white;
+}
+.button
+{
+    margin: auto;
+}
+.picdown button
+{
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background-color: transparent;
+
+}
+.picdown button:hover{
+    background-color: #ff8b38;
+}
+.picdown button a
+{
+    color: white;
+}
+.picdown button a:hover
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/*5 SECTION--------------------------------------------------------*/
+.contact
+{
+    height: 614px;
+}
+.contact2 input
+{
+    border: transparent;
+    border-bottom: 1px solid #cccccc;
+    width: 500px;
+}
+.contact2 button
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 170px;
+    width: 125px;
+    height: 40px;
+    background: #ff8b38;
+    border-radius: 5px;
+}
+.contact2 button a
+{
+   color: white;
+}
+/*FOOTER------------------------------------------------------------*/
+footer{
+    height: 84px;
+    background: #000;
+}
+
+.footicons
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footicons .icons
+{
+
+    font-size: 30px;
+}
+.footicons .icons__item
+{
+    list-style-type: none;
+
+}
+.footicons .icons__item a
+{
+    color: #cccccc;
+}
+.footicons .icons__item a:hover
+{
+    color: #ff8b38 ;
+}
+footer p
+{
+    color: white;
+    text-align: center;
+}
+/*MEDIA------------------------------------------------------------*/
+@media (max-width: 1160px) {
+    .container
+    {
+        width: 100%;
+    }
+    .logo
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+    .title2 h2
+    {
+        text-align: center;
+    }
+    .title2 img
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+    .signup{}
+}
