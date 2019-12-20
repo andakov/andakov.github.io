@@ -1,0 +1,102 @@
+body{
+	font-family: 'Marmelad', sans-serif;
+}
+ul,li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.row
+{margin:0 !important; padding:0 !important;}
+header{
+
+}
+
+@-webkit-keyframes pulsate {
+ 50% { color: #fff; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff; }
+}
+@keyframes pulsate {
+ 50% { color: #fff; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff; }
+}
+#textsv {
+  color: rgb(245,245,245);
+  text-shadow: 0 -1px rgba(0,0,0,.1);
+  background: #DAA520;
+  -webkit-animation: pulsate 1.2s linear infinite;
+  animation: pulsate 1.2s linear infinite;
+}
+
+.navbar
+{
+    background-color: #00008B;
+}
+.container-fluid
+{
+
+}
+.menu__item
+{
+	margin: 0 20px;
+}
+.menu__item a
+{
+	color: white;
+}
+.menu
+{
+	margin-top: 10px;
+}
+/*.col-lg-3
+{
+	margin-bottom: 20px;
+}*/
+
+/*2 container*/
+.carousel-inner {
+
+}
+.carousel-item {
+	background-size: cover;
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-color: inherit;
+}
+
+.overlay
+{
+	position: relative;
+	z-index: 1;
+}
+/*Card container*/
+.card-img-top
+{
+
+	height: 250px;
+}
+/*Footer*/
+.footer
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: #C0C0C0;
+}
+.icons
+{
+	margin-top: 10px;
+	font-size: 30px;
+}
+.icons__item
+{
+	margin: 0 10px;
+}
+.icons__item a
+{
+	color: black;
+}
+.icons__item a:hover
+{
+	color: blue;
+}
+
+
